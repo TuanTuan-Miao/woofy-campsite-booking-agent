@@ -1,0 +1,29 @@
+{
+  "name": "woofy",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "run-once": "tsx src/index.ts run-once",
+    "schedule": "tsx src/index.ts schedule",
+    "bot": "tsx src/index.ts bot",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@langchain/langgraph": "^1.0.0",
+    "@langchain/openai": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "node-cron": "^4.2.1",
+    "playwright": "^1.54.0",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

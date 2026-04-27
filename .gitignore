@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+watchlist.json
+.DS_Store
+.runtime/
+.playwright-cli/
+playwright/.auth
+test-results
+coverage

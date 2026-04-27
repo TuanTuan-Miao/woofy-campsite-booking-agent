@@ -1,0 +1,23 @@
+[
+  {
+    "id": "trip-a",
+    "name": "Trip A",
+    "campgroundId": "10300216",
+    "arrivalDate": "2026-07-17",
+    "nights": 2,
+    "preferredCampsiteIds": [
+      "1001",
+      "1002"
+    ],
+    "excludedCampsiteIds": []
+  },
+  {
+    "id": "trip-b",
+    "name": "Trip B",
+    "campgroundId": "232447",
+    "arrivalDate": "2026-08-01",
+    "nights": 1,
+    "preferredCampsiteIds": [],
+    "excludedCampsiteIds": []
+  }
+]
